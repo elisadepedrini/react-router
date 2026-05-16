@@ -11,7 +11,7 @@ https://fakestoreapi.com/
     - Homepage (con un messaggio di benvenuto o immagine promozionale)
     - Chi siamo
     - Prodotti (pagina che mostrerà la lista dei prodotti prendendoli da https://fakestoreapi.com/products)
-[] Implementiamo una Navbar visibile in tutte le pagine per navigare tra di esse
+[x] Implementiamo una Navbar visibile in tutte le pagine per navigare tra di esse
 
 
 
