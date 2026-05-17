@@ -18,19 +18,22 @@ export default function ProductsPage() {
       <AppHeader />
 
       <main>
-        <div className="container text-center m-4 row">
+        <div className="container m-4 row">
           {products.map((product) => (
-            <div className="card col-4 p-4" key={product.id}>
-              <img
-                className="card-img-top w-25 mx-auto mb-4"
-                src={product.image}
-                alt="Card image cap"
-              />
-              <div className="card-body">
-                <h4 className="card-title mb-3">{product.title}</h4>
-                <p className="card-text">{product.description}</p>
+            <div className="card col-4 p-0" key={product.id}>
+                <div className="bg-light text-center mb-3">
+                    <img
+                        className="card-img-top w-25 my-4"
+                        src={product.image}
+                        alt="Card image cap"
+                    />
               </div>
-              <div className="d-flex justify-content-between">
+              <div className="card-body">
+                <h4 className="fs-6 mb-5">{product.category.toUpperCase()}</h4>
+                <h5 className="card-title mb-3 fs-5">{product.title}</h5>
+                <p className="card-text fs-6">{product.description}</p>
+              </div>
+              <div className="d-flex justify-content-between m-4">
                 <h4 className="price">{product.price} €</h4>
                 <button type="button" className="btn btn-primary py-1 px-3"><strong>+</strong></button>
               </div>
