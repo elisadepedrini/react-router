@@ -1,12 +1,10 @@
 import { Link } from "react-router-dom";
-import AppHeader from "../components/AppHeader";
 
 
 export default function HomePage() {
 
     return(
         <>
-        <AppHeader />
 
         <main>
             <div className="p-5 mb-4 bg-light rounded-3 d-flex flex-row">

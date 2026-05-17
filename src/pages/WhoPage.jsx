@@ -1,10 +1,8 @@
-import AppHeader from "../components/AppHeader";
 
 export default function WhoPage() {
 
     return(
         <>
-        <AppHeader />
         
         <main className="mb-5">
             <div className="p-5 mb-4 bg-light rounded-3">

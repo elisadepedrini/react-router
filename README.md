@@ -16,5 +16,5 @@ https://fakestoreapi.com/
 
 
 **Bonus**
-[] Centralizziamo la Navbar usando un componente Layout
+[x] Centralizziamo la Navbar usando un componente Layout
 [x] Gestiamo la classe active per i link attivi nella Navbar

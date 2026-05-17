@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import AppHeader from "../components/AppHeader";
 
 export default function ProductsPage() {
   const api_url = "https://fakestoreapi.com/products";
@@ -15,7 +14,6 @@ export default function ProductsPage() {
 
   return (
     <>
-      <AppHeader />
 
       <main>
         <div className="container m-4 row">
