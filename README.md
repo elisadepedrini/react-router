@@ -7,7 +7,7 @@ https://fakestoreapi.com/
 *Obiettivi*
 
 [x] Installiamo React Router DOM: npm i react-router-dom
-[] Creiamo almeno 3 pagine principali:
+[x] Creiamo almeno 3 pagine principali:
     - Homepage (con un messaggio di benvenuto o immagine promozionale)
     - Chi siamo
     - Prodotti (pagina che mostrerà la lista dei prodotti prendendoli da https://fakestoreapi.com/products)
@@ -16,5 +16,5 @@ https://fakestoreapi.com/
 
 
 **Bonus**
-Centralizziamo la Navbar usando un componente Layout
-Gestiamo la classe active per i link attivi nella Navbar
+[] Centralizziamo la Navbar usando un componente Layout
+[x] Gestiamo la classe active per i link attivi nella Navbar
