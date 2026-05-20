@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function ProductsPage() {
   const api_url = "https://fakestoreapi.com/products";
@@ -35,6 +36,8 @@ export default function ProductsPage() {
                 <h4 className="price">{product.price} €</h4>
                 <button type="button" className="btn btn-primary py-1 px-3"><strong>+</strong></button>
               </div>
+
+              <Link to={`/src/pages/ProductsPage.jsx/${product.id}`} className="p-2">View More</Link>
             </div>
           ))}
         </div>
