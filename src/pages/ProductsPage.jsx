@@ -38,7 +38,7 @@ export default function ProductsPage() {
                 <button type="button" className="btn btn-primary py-1 px-3"><strong>+</strong></button>
               </div>
 
-              <a href={`/products/${product.id}`} className="p-2">View More</a>
+              <Link to={`/products/${product.id}`} className="p-2">View More</Link>
             </div>
           ))}
         </div>

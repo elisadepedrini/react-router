@@ -30,7 +30,7 @@ Completiamo il nostro routing aggiungendo la pagina di dettaglio prodotto!
 [x] Configuriamo il routing dinamico per leggere l’id del prodotto dalla URL
 
 **Bonus**
-[] Aggiungiamo una navigazione programmatica che riporti alla pagina di listato se viene cercato un prodotto che non esiste;
+[x] Aggiungiamo una navigazione programmatica che riporti alla pagina di listato se viene cercato un prodotto che non esiste;
 [] Aggiungiamo una pagina 404;
 [] Aggiungiamo un loading per caricamento del dettaglio prodotto.
 
