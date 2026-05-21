@@ -31,7 +31,7 @@ Completiamo il nostro routing aggiungendo la pagina di dettaglio prodotto!
 
 **Bonus**
 [x] Aggiungiamo una navigazione programmatica che riporti alla pagina di listato se viene cercato un prodotto che non esiste;
-[] Aggiungiamo una pagina 404;
+[x] Aggiungiamo una pagina 404;
 [] Aggiungiamo un loading per caricamento del dettaglio prodotto.
 
 **Super Bonus**
